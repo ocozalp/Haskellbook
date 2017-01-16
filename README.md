@@ -1,0 +1,2 @@
+# Haskellbook
+My Haskellbook snippets
