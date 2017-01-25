@@ -1,7 +1,7 @@
 data Mood = Blah | Woot deriving Show
 
 changeMood :: Mood -> Mood
-changeMood mood = do
+changeMood mood =
     case mood of 
         Blah -> Woot
         Woot -> Blah

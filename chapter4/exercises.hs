@@ -7,7 +7,7 @@ isPalindrome a = a == b
 -- 9)
 
 myAbs :: Integer -> Integer
-myAbs num = do
+myAbs num =
     if num < 0
     then -num
     else num
